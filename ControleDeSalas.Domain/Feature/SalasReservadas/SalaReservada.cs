@@ -1,4 +1,5 @@
 ﻿using ControleDeSalas.Domain.Abstract;
+using ControleDeSalas.Domain.Exceptions;
 using ControleDeSalas.Domain.Feature.Funcionarios;
 using ControleDeSalas.Domain.Feature.Salas;
 using System;
@@ -18,7 +19,17 @@ namespace ControleDeSalas.Domain.Feature.SalasReservadas
 
         public override void Validar()
         {
-            throw new NotImplementedException();
+            if (Funcionario.Id <= 0)
+                throw new IdentifierUndefinedException();
+
+            if(Sala.Id <= 0)
+                throw new IdentifierUndefinedException();
+
+            if(DataReserva < DateTime.Now)
+                throw new InvalidDateTimeException();
+
+            if(HoraReserva < DateTime.Now)
+                throw new InvalidDateTimeException();
         }
     }
 }

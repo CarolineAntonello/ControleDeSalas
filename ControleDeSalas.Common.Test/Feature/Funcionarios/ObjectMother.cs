@@ -19,6 +19,17 @@ namespace ControleDeSalas.Common.Test.Feature.Funcionarios
             };
         }
 
+        public static Funcionario GetFuncionarioComId()
+        {
+            return new Funcionario()
+            {
+                Id = 1,
+                Nome = "Caroline",
+                Cargo = "Estagiária",
+                Ramal = 0,
+            };
+        }
+
         public static Funcionario GetFuncionarioNomeMenorQueQuatroCaracteres()
         {
             return new Funcionario()

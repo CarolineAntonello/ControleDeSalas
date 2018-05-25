@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Abstract\Entidade.cs" />
     <Compile Include="Exceptions\BusinessException.cs" />
+    <Compile Include="Exceptions\IdentifierUndefinedException.cs" />
     <Compile Include="Exceptions\InvalidCaractersException.cs" />
+    <Compile Include="Exceptions\InvalidDateTimeException.cs" />
     <Compile Include="Exceptions\InvalidNumberException.cs" />
     <Compile Include="Feature\Funcionarios\Funcionario.cs" />
     <Compile Include="Feature\SalasReservadas\SalaReservada.cs" />

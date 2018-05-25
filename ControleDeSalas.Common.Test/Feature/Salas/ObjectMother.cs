@@ -18,6 +18,16 @@ namespace ControleDeSalas.Common.Test.Feature.Salas
             };
         }
 
+        public static Sala GetSalaComId()
+        {
+            return new Sala()
+            {
+                Id = 1,
+                Nome = "Sala de Treinamento",
+                QuantidadeLugares = 36,
+            };
+        }
+
         public static Sala GetSalaNomeComMenosDeQuatroCaracteres()
         {
             return new Sala()
