@@ -1,4 +1,5 @@
 ﻿using ControleDeSalas.Domain.Abstract;
+using ControleDeSalas.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,11 @@ namespace ControleDeSalas.Domain.Feature.Salas
 
         public override void Validar()
         {
-            throw new NotImplementedException();
+            if (Nome.Length < 4)
+                throw new InvalidCaractersException();
+
+            if (QuantidadeLugares <= 0)
+                throw new InvalidNumberException();
         }
     }
 }
