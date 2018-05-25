@@ -1,4 +1,5 @@
 ﻿using ControleDeSalas.Domain.Abstract;
+using ControleDeSalas.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +11,19 @@ namespace ControleDeSalas.Domain.Feature.Funcionarios
     public class Funcionario : Entidade
     {
         public string Nome;
-        public string cargo;
+        public string Cargo;
         public int Ramal;
 
         public override void Validar()
         {
-            throw new NotImplementedException();
+            if (Nome.Length < 4)
+                throw new InvalidCaractersException();
+
+            if(Cargo.Length < 4)
+                throw new InvalidCaractersException();
+
+            if(Ramal < 0)
+                throw new InvalidNumberException();
         }
     }
 }
