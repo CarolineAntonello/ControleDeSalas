@@ -40,7 +40,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSala(),
             };
-        }
+        } 
 
         public static SalaReservada GetSalaReservadaDataMenorQueAtual()
         {

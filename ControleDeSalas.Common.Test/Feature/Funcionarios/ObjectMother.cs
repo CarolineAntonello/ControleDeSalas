@@ -59,5 +59,24 @@ namespace ControleDeSalas.Common.Test.Feature.Funcionarios
                 Ramal = -12,
             };
         }
+
+        public static List<Funcionario> GetFuncionarios()
+        {
+            return new List<Funcionario>
+            {
+                new Funcionario()
+                {
+                     Nome = "Caroline",
+                     Cargo = "Estagiária",
+                     Ramal = 0,
+                },
+                 new Funcionario()
+                {
+                     Nome = "Antonio",
+                     Cargo = "Gerente de Vendas",
+                     Ramal = 123,
+                },
+            };
+        }
     }
 }

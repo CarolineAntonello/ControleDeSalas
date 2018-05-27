@@ -45,5 +45,24 @@ namespace ControleDeSalas.Common.Test.Feature.Salas
                 QuantidadeLugares = 0,
             };
         }
+
+        public static List<Sala> GetSalas()
+        {
+            return new List<Sala>()
+            {
+                new Sala()
+                {
+                    Nome = "Sala de Reunião",
+                    QuantidadeLugares = 30,
+                },
+
+                new Sala()
+                {
+                    Nome = "Sala de Conferência",
+                    QuantidadeLugares = 20,
+                },
+
+            };
+        }
     }
 }
