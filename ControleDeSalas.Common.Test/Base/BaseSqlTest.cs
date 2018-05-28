@@ -17,12 +17,16 @@ namespace ControleDeSalas.Common.Test.Base
 
         private const string INSERT_FUNCIONARIO = @"INSERT INTO TBFuncionario(Nome, Cargo, Ramal) VALUES ('José', 'Desenvolvedor', 123)";
 
+        private const string INSERT_SALA = @"INSERT INTO TBSala(Nome, QuantidadeLugares) VALUES ('Sala de Reunião', 35)";
+
 
         public static void SeedDatabase()
         {
             Db.Update(RECREATE_FUNCIONARIO_TABLE);
+            Db.Update(RECREATE_SALA_TABLE);
 
             Db.Update(INSERT_FUNCIONARIO);
+            Db.Update(INSERT_SALA);
         }
     }
 }
