@@ -72,16 +72,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Features\Funcionarios\FuncionarioServiceTests.cs" />
+    <Compile Include="Features\SalasReservadas\SalaReservadaTests.cs" />
     <Compile Include="Features\Salas\SalaServiceTests.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Features\SalasReservadas\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ControleDeSalas.Application\ControleDeSalas.Application.csproj">
       <Project>{00DE63A0-0378-43F8-A045-096B6AFB4CF9}</Project>

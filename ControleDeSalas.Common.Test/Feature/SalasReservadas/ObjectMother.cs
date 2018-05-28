@@ -20,6 +20,18 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
             };
         }
 
+        public static SalaReservada GetSalaReservadaComId()
+        {
+            return new SalaReservada()
+            {
+                Id = 1,
+                DataReserva = DateTime.Now.AddDays(10),
+                HoraReserva = DateTime.Now.AddDays(10).AddHours(10),
+                Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
+                Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
+            };
+        }
+
         public static SalaReservada GetSalaReservadaSemFuncionario()
         {
             return new SalaReservada()
@@ -61,6 +73,27 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
                 HoraReserva = DateTime.Now.AddDays(-10).AddHours(-110),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
+            };
+        }
+
+        public static List<SalaReservada> GetSalasReservadas()
+        {
+            return new List<SalaReservada>()
+            {
+               new SalaReservada()
+               {
+                    DataReserva = DateTime.Now.AddDays(10),
+                    HoraReserva = DateTime.Now.AddDays(10).AddHours(10),
+                    Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
+                    Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
+               },
+               new SalaReservada()
+               {
+                    DataReserva = DateTime.Now.AddDays(15),
+                    HoraReserva = DateTime.Now.AddDays(10).AddHours(10),
+                    Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
+                    Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
+               },
             };
         }
     }

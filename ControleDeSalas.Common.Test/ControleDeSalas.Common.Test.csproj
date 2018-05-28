@@ -62,6 +62,10 @@
       <Project>{E649D839-ABCC-4B57-80D4-9FEEDF88F68F}</Project>
       <Name>ControleDeSalas.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ControleDeSalas.Infra\ControleDeSalas.Infra.csproj">
+      <Project>{AFDA38A3-1135-4519-8042-D7AAA2601344}</Project>
+      <Name>ControleDeSalas.Infra</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
