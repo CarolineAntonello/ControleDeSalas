@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 namespace ControleDeSalas.Integration.Test.Feature.Funcionarios
 {
     [TestFixture]
-    public class FuncionariosIntegrationTests
+    public class FuncionarioIntegrationTests
     {
         IFuncionarioRepository _repository;
         FuncionarioService _service;
