@@ -41,12 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature\Funcionarios\FuncionarioSQLRepository.cs" />
+    <Compile Include="Feature\SalasReservadas\SalaReservadaSQLRepository.cs" />
     <Compile Include="Feature\Salas\SalaSQLRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Feature\SalasReservadas\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ControleDeSalas.Application\ControleDeSalas.Application.csproj">
       <Project>{00DE63A0-0378-43F8-A045-096B6AFB4CF9}</Project>
