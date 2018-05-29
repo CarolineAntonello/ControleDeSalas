@@ -40,7 +40,7 @@ namespace ControleDeSalas.Integration.Test.Feature.Funcionarios
         }
 
         [Test]
-        public void Integration_Adiciona_Nome_Funcionario_Com_Menos_De_Quatro_Caracteres()
+        public void Integration_Nao_Adiciona_Nome_Funcionario_Com_Menos_De_Quatro_Caracteres()
         {
             _funcionario = ObjectMother.GetFuncionarioNomeMenorQueQuatroCaracteres();
             Action action = () => _service.Adicionar(_funcionario);
@@ -58,7 +58,7 @@ namespace ControleDeSalas.Integration.Test.Feature.Funcionarios
         }
 
         [Test]
-        public void Integration_Altera_Nome_Funcionario_Com_Menos_De_Quatro_Caracteres()
+        public void Integration_Nao_Altera_Nome_Funcionario_Com_Menos_De_Quatro_Caracteres()
         {
             _funcionario = ObjectMother.GetFuncionarioNomeMenorQueQuatroCaracteres();
             Action action = () => _service.Editar(_funcionario);

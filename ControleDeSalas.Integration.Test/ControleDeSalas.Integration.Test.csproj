@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature\Funcionarios\FuncionarioIntegrationTests.cs" />
+    <Compile Include="Feature\SalasReservadas\SalaReservadaIntegrationTests.cs" />
     <Compile Include="Feature\Salas\SalaIntegrationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

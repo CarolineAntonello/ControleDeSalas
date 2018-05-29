@@ -40,7 +40,7 @@ namespace ControleDeSalas.Integration.Test.Feature.Salas
         }
 
         [Test]
-        public void Integration_Adiciona_Nome_Sala_Com_Menos_De_Quatro_Caracteres()
+        public void Integration_Nao_Adiciona_Nome_Sala_Com_Menos_De_Quatro_Caracteres()
         {
             _sala = ObjectMother.GetSalaNomeComMenosDeQuatroCaracteres();
             Action action = () => _service.Adicionar(_sala);
@@ -58,7 +58,7 @@ namespace ControleDeSalas.Integration.Test.Feature.Salas
         }
 
         [Test]
-        public void Integration_Altera_Nome_Sala_Com_Menos_De_Quatro_Caracteres()
+        public void Integration_Nao_Altera_Nome_Sala_Com_Menos_De_Quatro_Caracteres()
         {
             _sala = ObjectMother.GetSalaNomeComMenosDeQuatroCaracteres();
             Action action = () => _service.Editar(_sala);
