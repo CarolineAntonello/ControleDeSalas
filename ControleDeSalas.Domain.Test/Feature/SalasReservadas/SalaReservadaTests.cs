@@ -1,6 +1,6 @@
 ﻿using ControleDeSalas.Common.Test.Feature.SalasReservadas;
 using ControleDeSalas.Domain.Exceptions;
-using ControleDeSalas.Domain.Feature.SalasReservadas;
+using ControleDeSalas.Domain.Feature.Alocacoes;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -14,7 +14,7 @@ namespace ControleDeSalas.Domain.Test.Feature.SalasReservadas
     [TestFixture]
     public class SalaReservadaTests
     {
-        SalaReservada _salasReservada;
+        Alocacao _salasReservada;
 
         [Test]
         public void Domain_SalaReservada_Deveria_Passar_Corretamente()

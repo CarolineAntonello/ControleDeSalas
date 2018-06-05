@@ -8,14 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleDeSalas.Domain.Feature.SalasReservadas
+namespace ControleDeSalas.Domain.Feature.Alocacoes
 {
-    public class SalaReservada : Entidade
+    public class Alocacao : Entidade
     {
-        public Funcionario Funcionario;
-        public Sala Sala;
-        public DateTime DataReserva;
-        public DateTime HoraReserva;
+        public Funcionario Funcionario { get; set; }
+        public Sala Sala { get; set; }
+        public DateTime DataReserva { get; set; }
+        public DateTime HoraReservaInicio { get; set; }
+        public DateTime HoraReservaFim { get; set; }
 
         public override void Validar()
         {
@@ -23,13 +24,14 @@ namespace ControleDeSalas.Domain.Feature.SalasReservadas
                 throw new IdentifierUndefinedException();
 
             if(Sala.Id <= 0)
-                throw new IdentifierUndefinedException();
+                throw new IdentifierUndefinedException(); 
 
             if(DataReserva < DateTime.Now)
                 throw new InvalidDateTimeException();
 
-            if(HoraReserva < DateTime.Now)
+            if(HoraReservaInicio < DateTime.Now)
                 throw new InvalidDateTimeException();
         }
+
     }
 }

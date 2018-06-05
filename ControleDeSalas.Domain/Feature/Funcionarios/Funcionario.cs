@@ -10,9 +10,9 @@ namespace ControleDeSalas.Domain.Feature.Funcionarios
 {
     public class Funcionario : Entidade
     {
-        public string Nome;
-        public string Cargo;
-        public int Ramal;
+        public string Nome { get; set; }
+        public string Cargo { get; set; }
+        public int Ramal { get; set; }
 
         public override void Validar()
         {

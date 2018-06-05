@@ -2,7 +2,7 @@
 using ControleDeSalas.Common.Test.Base;
 using ControleDeSalas.Common.Test.Feature.SalasReservadas;
 using ControleDeSalas.Domain.Exceptions;
-using ControleDeSalas.Domain.Feature.SalasReservadas;
+using ControleDeSalas.Domain.Feature.Alocacoes;
 using ControleDeSalas.Infra.Data.Feature.SalasReservadas;
 using FluentAssertions;
 using NUnit.Framework;
@@ -19,7 +19,7 @@ namespace ControleDeSalas.Integration.Test.Feature.SalasReservadas
     {
         ISalaReservadaRepository _repository;
         SalaReservadaService _service;
-        SalaReservada _salaReservada;
+        Alocacao _salaReservada;
 
         [SetUp]
         public void Initialize()
@@ -70,7 +70,7 @@ namespace ControleDeSalas.Integration.Test.Feature.SalasReservadas
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _service.Excluir(_salaReservada);
-            SalaReservada recebido = _service.Get(_salaReservada.Id);
+            Alocacao recebido = _service.Get(_salaReservada.Id);
             recebido.Should().BeNull();
         }
 
@@ -92,7 +92,7 @@ namespace ControleDeSalas.Integration.Test.Feature.SalasReservadas
         [Test]
         public void Integration_Pegar_Todos_Os_SalaReservadas_Corretamente()
         {
-            List<SalaReservada> funcionarios = _service.PegarTodos();
+            List<Alocacao> funcionarios = _service.PegarTodos();
             funcionarios.Count().Should().BeGreaterThan(0);
         }
     }

@@ -1,7 +1,7 @@
 ﻿using ControleDeSalas.Application.Feature.SalasReservadas;
 using ControleDeSalas.Common.Test.Feature.SalasReservadas;
 using ControleDeSalas.Domain.Exceptions;
-using ControleDeSalas.Domain.Feature.SalasReservadas;
+using ControleDeSalas.Domain.Feature.Alocacoes;
 using FluentAssertions;
 using Moq;
 using NUnit.Framework;
@@ -15,7 +15,7 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
     {
         Mock<ISalaReservadaRepository> _repository;
         SalaReservadaService _service;
-        SalaReservada _salaReservada;
+        Alocacao _salaReservada;
 
         [SetUp]
         public void Initialize()
@@ -29,12 +29,12 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         {
             _salaReservada = ObjectMother.GetSalaReservada();
             _repository
-                .Setup(f => f.Adicionar(It.IsAny<SalaReservada>()))
-                .Returns(new SalaReservada
+                .Setup(f => f.Adicionar(It.IsAny<Alocacao>()))
+                .Returns(new Alocacao
                 {
                     Id = 1,
                    DataReserva = _salaReservada.DataReserva,
-                   HoraReserva = _salaReservada.HoraReserva,
+                   HoraReservaInicio = _salaReservada.HoraReservaInicio,
                    Funcionario = _salaReservada.Funcionario,
                    Sala = _salaReservada.Sala
                 });
@@ -56,7 +56,7 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _repository
-                .Setup(f => f.Editar(It.IsAny<SalaReservada>()));
+                .Setup(f => f.Editar(It.IsAny<Alocacao>()));
             _service.Editar(_salaReservada);
             _repository.Verify(f => f.Editar(_salaReservada));
         }
@@ -93,11 +93,11 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         [Test]
         public void Service_SalaReservada_Deveria_BuscarTodos_SalaReservadas_Corretamente()
         {
-            List<SalaReservada> funcionario = ObjectMother.GetSalasReservadas();
+            List<Alocacao> funcionario = ObjectMother.GetSalasReservadas();
             _repository
                 .Setup(f => f.GetAll())
                 .Returns(funcionario);
-            List<SalaReservada> recebido = _service.PegarTodos();
+            List<Alocacao> recebido = _service.PegarTodos();
             _repository.Verify(f => f.GetAll());
             recebido.Should().BeEquivalentTo(funcionario);
         }

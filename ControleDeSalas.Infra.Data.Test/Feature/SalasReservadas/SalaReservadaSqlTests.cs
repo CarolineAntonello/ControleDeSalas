@@ -2,7 +2,7 @@
 using ControleDeSalas.Common.Test.Base;
 using ControleDeSalas.Common.Test.Feature.SalasReservadas;
 using ControleDeSalas.Domain.Exceptions;
-using ControleDeSalas.Domain.Feature.SalasReservadas;
+using ControleDeSalas.Domain.Feature.Alocacoes;
 using ControleDeSalas.Infra.Data.Feature.SalasReservadas;
 using FluentAssertions;
 using NUnit.Framework;
@@ -18,7 +18,7 @@ namespace ControleDeSalas.Infra.Data.Test.Feature.SalasReservadas
     public class SalaReservadaSqlTests
     {
         ISalaReservadaRepository _repository;
-        SalaReservada _salaReservada;
+        Alocacao _salaReservada;
 
         [SetUp]
         public void Initialize()
@@ -48,7 +48,7 @@ namespace ControleDeSalas.Infra.Data.Test.Feature.SalasReservadas
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _repository.Editar(_salaReservada);
-            SalaReservada sala = _repository.GetById(_salaReservada.Id);
+            Alocacao sala = _repository.GetById(_salaReservada.Id);
             sala.Id.Should().Be(_salaReservada.Id);
         }
 
@@ -65,7 +65,7 @@ namespace ControleDeSalas.Infra.Data.Test.Feature.SalasReservadas
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _repository.Excluir(_salaReservada.Id);
-            SalaReservada sala_reservada = _repository.GetById(_salaReservada.Id);
+            Alocacao sala_reservada = _repository.GetById(_salaReservada.Id);
             sala_reservada.Should().BeNull();
         }
 
@@ -80,7 +80,7 @@ namespace ControleDeSalas.Infra.Data.Test.Feature.SalasReservadas
         [Test]
         public void Repository_SalaReservada_Deveria_BuscarTodos_Corretamente()
         {
-            List<SalaReservada> salasReservadas = ObjectMother.GetSalasReservadas();
+            List<Alocacao> salasReservadas = ObjectMother.GetSalasReservadas();
             foreach (var item in salasReservadas)
             {
                 _repository.Adicionar(item);

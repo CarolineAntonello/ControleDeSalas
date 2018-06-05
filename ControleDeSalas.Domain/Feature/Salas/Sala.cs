@@ -10,8 +10,8 @@ namespace ControleDeSalas.Domain.Feature.Salas
 {
     public class Sala : Entidade
     {
-        public string Nome;
-        public int QuantidadeLugares;
+        public string Nome { get; set; }
+        public int QuantidadeLugares { get; set; }
 
         public override void Validar()
         {

@@ -1,7 +1,7 @@
 ﻿using ControleDeSalas.Application.Feature.SalasReservadas;
 using ControleDeSalas.Domain.Feature.Funcionarios;
 using ControleDeSalas.Domain.Feature.Salas;
-using ControleDeSalas.Domain.Feature.SalasReservadas;
+using ControleDeSalas.Domain.Feature.Alocacoes;
 using ControleDeSalas.Infra.DataBase;
 using System;
 using System.Collections.Generic;
@@ -63,14 +63,14 @@ namespace ControleDeSalas.Infra.Data.Feature.SalasReservadas
                                             INNER JOIN TBSala as s ON s.Id = sr.Sala_Id
                                             INNER JOIN TBFuncionario as f ON f.Id = sr.Funcionario_Id";
 
-        public SalaReservada Adicionar(SalaReservada entidade)
+        public Alocacao Adicionar(Alocacao entidade)
         {
             entidade.Validar();
             entidade.Id = Db.Insert(_sqlAdd, Take(entidade));
             return entidade;
         }
 
-        public void Editar(SalaReservada entidade)
+        public void Editar(Alocacao entidade)
         {
             entidade.Validar();
             Db.Update(_sqlAdd, Take(entidade));
@@ -82,40 +82,40 @@ namespace ControleDeSalas.Infra.Data.Feature.SalasReservadas
             Db.Delete(_sqlDelete, parms);
         }
 
-        public List<SalaReservada> GetAll()
+        public List<Alocacao> GetAll()
         {
             return Db.GetAll(_sqlGetAll, Make);
         }
 
-        public SalaReservada GetById(int Id)
+        public Alocacao GetById(int Id)
         {
             Dictionary<string, object> parms = new Dictionary<string, object> { { "Id", Id } };
-            SalaReservada sala = Db.Get(_sqlGetById, Make, parms);
+            Alocacao sala = Db.Get(_sqlGetById, Make, parms);
             return sala;
         }
 
-        private SalaReservada Make(IDataReader reader)
+        private Alocacao Make(IDataReader reader)
         {
-            SalaReservada salaReservada = new SalaReservada();
+            Alocacao salaReservada = new Alocacao();
             salaReservada.Funcionario = new Funcionario();
             salaReservada.Sala = new Sala();
 
             salaReservada.Id = Convert.ToInt32(reader["Id"]);
             salaReservada.DataReserva = Convert.ToDateTime(reader["DataReserva"]);
-            salaReservada.HoraReserva = Convert.ToDateTime(reader["HoraReserva"]);
+            salaReservada.HoraReservaInicio = Convert.ToDateTime(reader["HoraReserva"]);
             salaReservada.Funcionario.Id = Convert.ToInt32(reader["Funcionario_Id"]);
             salaReservada.Sala.Id = Convert.ToInt32(reader["Sala_Id"]);
             return salaReservada;
         }
 
-        private Dictionary<string, object> Take(SalaReservada sala)
+        private Dictionary<string, object> Take(Alocacao sala)
         {
 
             return new Dictionary<string, object>
             {
                 { "Id", sala.Id },
                 { "DataReserva", sala.DataReserva },
-                { "HoraReserva", sala.HoraReserva },
+                { "HoraReserva", sala.HoraReservaInicio },
                 { "Funcionario_Id", sala.Funcionario.Id },
                 { "Sala_Id", sala.Sala.Id }
             };
