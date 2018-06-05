@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature\Funcionarios\FuncionarioSQLRepository.cs" />
-    <Compile Include="Feature\SalasReservadas\SalaReservadaSQLRepository.cs" />
+    <Compile Include="Feature\Alocacoes\AlocacaoSQLRepository.cs" />
     <Compile Include="Feature\Salas\SalaSQLRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

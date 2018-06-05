@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleDeSalas.Application.Feature.SalasReservadas
+namespace ControleDeSalas.Application.Feature.Alocacoes
 {
-    public class SalaReservadaService : Service<Alocacao>
+    public class AlocacaoService : Service<Alocacao>
     {
-        ISalaReservadaRepository _repository;
-        public SalaReservadaService(ISalaReservadaRepository repository) : base(repository)
+        IAlocacaoRepository _repository;
+        public AlocacaoService(IAlocacaoRepository repository) : base(repository)
         {
             _repository = repository;
         }

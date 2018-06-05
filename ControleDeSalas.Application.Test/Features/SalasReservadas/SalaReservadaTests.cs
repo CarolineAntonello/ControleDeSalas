@@ -1,5 +1,5 @@
-﻿using ControleDeSalas.Application.Feature.SalasReservadas;
-using ControleDeSalas.Common.Test.Feature.SalasReservadas;
+﻿using ControleDeSalas.Application.Feature.Alocacoes;
+using ControleDeSalas.Common.Test.Feature.Alocacoes;
 using ControleDeSalas.Domain.Exceptions;
 using ControleDeSalas.Domain.Feature.Alocacoes;
 using FluentAssertions;
@@ -13,15 +13,15 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
     [TestFixture]
     public class SalaReservadaReservadaTests
     {
-        Mock<ISalaReservadaRepository> _repository;
-        SalaReservadaService _service;
+        Mock<IAlocacaoRepository> _repository;
+        AlocacaoService _service;
         Alocacao _salaReservada;
 
         [SetUp]
         public void Initialize()
         {
-            _repository = new Mock<ISalaReservadaRepository>();
-            _service = new SalaReservadaService(_repository.Object);
+            _repository = new Mock<IAlocacaoRepository>();
+            _service = new AlocacaoService(_repository.Object);
         }
 
         [Test]

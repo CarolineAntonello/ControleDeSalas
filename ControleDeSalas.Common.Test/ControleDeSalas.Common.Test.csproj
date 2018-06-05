@@ -50,7 +50,7 @@
   <ItemGroup>
     <Compile Include="Base\BaseSqlTest.cs" />
     <Compile Include="Feature\Funcionarios\ObjectMother.cs" />
-    <Compile Include="Feature\SalasReservadas\ObjectMother.cs" />
+    <Compile Include="Feature\Alocacoes\ObjectMother.cs" />
     <Compile Include="Feature\Salas\ObjectMother.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

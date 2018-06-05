@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleDeSalas.Application.Feature.SalasReservadas
+namespace ControleDeSalas.Application.Feature.Alocacoes
 {
-    public interface ISalaReservadaRepository : IRepository<Alocacao>
+    public interface IAlocacaoRepository : IRepository<Alocacao>
     {
     }
 }

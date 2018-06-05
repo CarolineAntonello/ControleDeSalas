@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
+namespace ControleDeSalas.Common.Test.Feature.Alocacoes
 {
     public partial class ObjectMother
     {
@@ -15,6 +15,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
             {
                 DataReserva = DateTime.Now.AddDays(10),
                 HoraReservaInicio = DateTime.Now.AddDays(10).AddHours(10),
+                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(15),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
             };
@@ -27,6 +28,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
                 Id = 1,
                 DataReserva = DateTime.Now.AddDays(10),
                 HoraReservaInicio = DateTime.Now.AddDays(10).AddHours(10),
+                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(15),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
             };
@@ -38,6 +40,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
             {
                 DataReserva = DateTime.Now.AddDays(10),
                 HoraReservaInicio = DateTime.Now.AddDays(10).AddHours(10),
+                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(15),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionario(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
             };
@@ -49,6 +52,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
             {
                 DataReserva = DateTime.Now.AddDays(10),
                 HoraReservaInicio = DateTime.Now.AddDays(10).AddHours(10),
+                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(15),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSala(),
             };
@@ -60,6 +64,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
             {
                 DataReserva = DateTime.Now.AddDays(-10),
                 HoraReservaInicio = DateTime.Now.AddDays(10).AddHours(10),
+                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(15),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
             };
@@ -71,6 +76,19 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
             {
                 DataReserva = DateTime.Now.AddDays(10),
                 HoraReservaInicio = DateTime.Now.AddDays(-10).AddHours(-110),
+                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(-110),
+                Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
+                Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
+            };
+        }
+
+        public static Alocacao GetSalaReservadaHoraReservaInicioMaiorQueHoraReservaFim()
+        {
+            return new Alocacao()
+            {
+                DataReserva = DateTime.Now.AddDays(10),
+                HoraReservaInicio = DateTime.Now.AddDays(-10).AddHours(15),
+                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(5),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
             };
@@ -84,6 +102,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
                {
                     DataReserva = DateTime.Now.AddDays(10),
                     HoraReservaInicio = DateTime.Now.AddDays(10).AddHours(10),
+                    HoraReservaFim = DateTime.Now.AddDays(10).AddHours(15),
                     Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                     Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
                },
@@ -91,6 +110,7 @@ namespace ControleDeSalas.Common.Test.Feature.SalasReservadas
                {
                     DataReserva = DateTime.Now.AddDays(15),
                     HoraReservaInicio = DateTime.Now.AddDays(10).AddHours(10),
+                    HoraReservaFim = DateTime.Now.AddDays(10).AddHours(15),
                     Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                     Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
                },

@@ -31,6 +31,9 @@ namespace ControleDeSalas.Domain.Feature.Alocacoes
 
             if(HoraReservaInicio < DateTime.Now)
                 throw new InvalidDateTimeException();
+
+            if(HoraReservaInicio > HoraReservaFim)
+                throw new InvalidDateTimeException();
         }
 
     }

@@ -1,9 +1,9 @@
-﻿using ControleDeSalas.Application.Feature.SalasReservadas;
+﻿using ControleDeSalas.Application.Feature.Alocacoes;
 using ControleDeSalas.Common.Test.Base;
-using ControleDeSalas.Common.Test.Feature.SalasReservadas;
+using ControleDeSalas.Common.Test.Feature.Alocacoes;
 using ControleDeSalas.Domain.Exceptions;
 using ControleDeSalas.Domain.Feature.Alocacoes;
-using ControleDeSalas.Infra.Data.Feature.SalasReservadas;
+using ControleDeSalas.Infra.Data.Feature.Alocacoes;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -17,16 +17,16 @@ namespace ControleDeSalas.Integration.Test.Feature.SalasReservadas
     [TestFixture]
     public class SalaReservadaIntegrationTests
     {
-        ISalaReservadaRepository _repository;
-        SalaReservadaService _service;
+        IAlocacaoRepository _repository;
+        AlocacaoService _service;
         Alocacao _salaReservada;
 
         [SetUp]
         public void Initialize()
         {
             BaseSqlTest.SeedDatabase();
-            _repository = new SalaReservadaSQLRepository();
-            _service = new SalaReservadaService(_repository);
+            _repository = new AlocacaoSQLRepository();
+            _service = new AlocacaoService(_repository);
         }
 
         [Test]

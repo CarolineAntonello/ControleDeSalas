@@ -43,8 +43,8 @@
     <Compile Include="Abstract\Service.cs" />
     <Compile Include="Feature\Funcionarios\FuncionarioService.cs" />
     <Compile Include="Feature\Funcionarios\IFuncionarioRepository.cs" />
-    <Compile Include="Feature\SalasReservadas\ISalaReservadaRepository.cs" />
-    <Compile Include="Feature\SalasReservadas\SalaReservadaService.cs" />
+    <Compile Include="Feature\Alocacoes\IAlocacaoRepository.cs" />
+    <Compile Include="Feature\Alocacoes\AlocacaoService.cs" />
     <Compile Include="Feature\Salas\ISalaRepository.cs" />
     <Compile Include="Feature\Salas\SalaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
