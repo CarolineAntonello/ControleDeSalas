@@ -22,7 +22,8 @@ namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
                                                 Sala_Id) 
                                                 VALUES 
                                                 (@DataReserva, 
-                                                @HoraReserva,
+                                                @HoraReservaInicio,
+                                                @HoraReservaFim,
                                                 @Funcionario_Id,
                                                 @Sala_Id)";
 
@@ -106,17 +107,17 @@ namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
 
         private Alocacao Make(IDataReader reader)
         {
-            Alocacao salaReservada = new Alocacao();
-            salaReservada.Funcionario = new Funcionario();
-            salaReservada.Sala = new Sala();
+            Alocacao sala = new Alocacao();
+            sala.Funcionario = new Funcionario();
+            sala.Sala = new Sala();
 
-            salaReservada.Id = Convert.ToInt32(reader["Id"]);
-            salaReservada.DataReserva = Convert.ToDateTime(reader["DataReserva"]);
-            salaReservada.HoraReservaInicio = Convert.ToDateTime(reader["HoraReservaInicio"]);
-            salaReservada.HoraReservaFim = Convert.ToDateTime(reader["HoraReservaFim"]);
-            salaReservada.Funcionario.Id = Convert.ToInt32(reader["Funcionario_Id"]);
-            salaReservada.Sala.Id = Convert.ToInt32(reader["Sala_Id"]);
-            return salaReservada;
+            sala.Id = Convert.ToInt32(reader["Id"]);
+            sala.DataReserva = Convert.ToDateTime(reader["DataReserva"]);
+            sala.HoraReservaInicio = Convert.ToDateTime(reader["HoraReservaInicio"]);
+            sala.HoraReservaFim = Convert.ToDateTime(reader["HoraReservaFim"]);
+            sala.Funcionario.Id = Convert.ToInt32(reader["Funcionario_Id"]);
+            sala.Sala.Id = Convert.ToInt32(reader["Sala_Id"]);
+            return sala;
         }
 
         private Dictionary<string, object> Take(Alocacao sala)

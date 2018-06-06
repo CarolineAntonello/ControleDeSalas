@@ -3,10 +3,6 @@ using ControleDeSalas.Domain.Exceptions;
 using ControleDeSalas.Domain.Feature.Funcionarios;
 using ControleDeSalas.Domain.Feature.Salas;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ControleDeSalas.Domain.Feature.Alocacoes
 {

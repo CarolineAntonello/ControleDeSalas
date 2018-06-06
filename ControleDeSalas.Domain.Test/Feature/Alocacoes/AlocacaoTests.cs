@@ -4,12 +4,8 @@ using ControleDeSalas.Domain.Feature.Alocacoes;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ControleDeSalas.Domain.Test.Feature.SalasReservadas
+namespace ControleDeSalas.Domain.Test.Feature.Alocacoes
 {
     [TestFixture]
     public class AlocacaoTests

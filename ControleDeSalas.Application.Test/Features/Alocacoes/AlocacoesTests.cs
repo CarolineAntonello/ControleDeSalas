@@ -8,10 +8,10 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 
-namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReservadas
+namespace ControleDeSalaReservadas.Application.Test.Features.Alocacoes
 {
     [TestFixture]
-    public class SalaReservadaReservadaTests
+    public class AlocacoesTests
     {
         Mock<IAlocacaoRepository> _repository;
         AlocacaoService _service;
@@ -25,7 +25,7 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         }
 
         [Test]
-        public void Service_SalaReservada_Deveria_Adicionar_SalaReservada_Corretamente()
+        public void Service_SalaReservada_Deveria_Adicionar_Locacao_Corretamente()
         {
             _salaReservada = ObjectMother.GetSalaReservada();
             _repository
@@ -35,7 +35,8 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
                     Id = 1,
                    DataReserva = _salaReservada.DataReserva,
                    HoraReservaInicio = _salaReservada.HoraReservaInicio,
-                   Funcionario = _salaReservada.Funcionario,
+                    HoraReservaFim = _salaReservada.HoraReservaFim,
+                    Funcionario = _salaReservada.Funcionario,
                    Sala = _salaReservada.Sala
                 });
             _service.Adicionar(_salaReservada);
@@ -43,7 +44,7 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         }
 
         [Test]
-        public void Service_SalaReservada_Nao_Deveria_Adicionar_SalaReservada_Com_Data_Menor_Que_Atual()
+        public void Service_SalaReservada_Nao_Deveria_Adicionar_Locacao_Com_Data_Menor_Que_Atual()
         {
             _salaReservada = ObjectMother.GetSalaReservadaDataMenorQueAtual();
             Action action = () => _service.Adicionar(_salaReservada);
@@ -52,7 +53,16 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         }
 
         [Test]
-        public void Service_SalaReservada_Deveria_Editar_SalaReservada_Corretamente()
+        public void Service_SalaReservada_Nao_Deveria_Adicionar_Locacao_Com_HoraDeInicio_Maior_Que_HoraDeFim()
+        {
+            _salaReservada = ObjectMother.GetSalaReservadaHoraReservaInicioMaiorQueHoraReservaFim();
+            Action action = () => _service.Adicionar(_salaReservada);
+            action.Should().Throw<InvalidDateTimeException>();
+            _repository.VerifyNoOtherCalls();
+        }
+
+        [Test]
+        public void Service_SalaReservada_Deveria_Editar_Locacao_Corretamente()
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _repository
@@ -62,7 +72,7 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         }
 
         [Test]
-        public void Service_SalaReservada_Nao_Deveria_Editar_SalaReservada_Com_Com_Data_Menor_Que_Atual()
+        public void Service_SalaReservada_Nao_Deveria_Editar_Locacao_Com_Com_Data_Menor_Que_Atual()
         {
             _salaReservada = ObjectMother.GetSalaReservadaDataMenorQueAtual();
             Action action = () => _service.Editar(_salaReservada);
@@ -71,7 +81,16 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         }
 
         [Test]
-        public void Service_SalaReservada_Deveria_Excluir_SalaReservada_Corretamente()
+        public void Service_SalaReservada_Nao_Deveria_Editar_Locacao_Com_HoraDeInicio_Maior_Que_HoraDeFim()
+        {
+            _salaReservada = ObjectMother.GetSalaReservadaHoraReservaInicioMaiorQueHoraReservaFim();
+            Action action = () => _service.Editar(_salaReservada);
+            action.Should().Throw<InvalidDateTimeException>();
+            _repository.VerifyNoOtherCalls();
+        }
+
+        [Test]
+        public void Service_SalaReservada_Deveria_Excluir_Locacao_Corretamente()
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _repository
@@ -81,7 +100,7 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         }
 
         [Test]
-        public void Service_SalaReservada_Deveria_Pegar_SalaReservada_Por_Id_Corretamente()
+        public void Service_SalaReservada_Deveria_Pegar_Locacao_Por_Id_Corretamente()
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _repository
@@ -91,7 +110,7 @@ namespace ControleDeSalaReservadas.Application.Test.Features.SalaReservadasReser
         }
 
         [Test]
-        public void Service_SalaReservada_Deveria_BuscarTodos_SalaReservadas_Corretamente()
+        public void Service_SalaReservada_Deveria_BuscarTodos_Locacaos_Corretamente()
         {
             List<Alocacao> funcionario = ObjectMother.GetSalasReservadas();
             _repository

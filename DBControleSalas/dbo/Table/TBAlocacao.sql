@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[TBSalaReservada]
+﻿CREATE TABLE [dbo].[TBAlocacao]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [DataReserva] DATE NOT NULL, 

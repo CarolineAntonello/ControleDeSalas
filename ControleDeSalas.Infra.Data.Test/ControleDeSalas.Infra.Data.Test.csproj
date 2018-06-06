@@ -62,7 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature\Funcionarios\FuncionarioSqlRepositoryTests.cs" />
-    <Compile Include="Feature\SalasReservadas\SalaReservadaSqlTests.cs" />
+    <Compile Include="Feature\Alocacoes\AlocacaoSqlTests.cs" />
     <Compile Include="Feature\Salas\SalaSqlRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
