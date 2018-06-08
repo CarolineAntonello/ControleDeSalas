@@ -48,13 +48,21 @@ namespace ControleDeSalas.Integration.Test.Feature.SalasReservadas
         }
 
         [Test]
-        public void Integration_Altera_SalaReservada_Corretamente()
+        public void Integration_Realocar_SalaReservada_Corretamente()
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
-            _service.Editar(_salaReservada);
+            _service.Realocar(_salaReservada);
             var Verify = _service.Get(_salaReservada.Id);
             Verify.Should().NotBeNull();
             Verify.Id.Should().Be(_salaReservada.Id);
+        }
+
+        [Test]
+        public void Integration_Altera_SalaReservada_Com_Excecao()
+        {
+            _salaReservada = ObjectMother.GetSalaReservadaComId();
+            Action action = ()=> _service.Editar(_salaReservada);
+            action.Should().Throw<UnsupportedOperationException>();
         }
 
         [Test]

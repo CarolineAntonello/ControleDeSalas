@@ -61,12 +61,22 @@ namespace ControleDeSalaReservadas.Application.Test.Features.Alocacoes
             _repository.VerifyNoOtherCalls();
         }
 
+        //[Test]
+        //public void Service_SalaReservada_Deveria_Editar_Locacao_Corretamente()
+        //{
+        //    _salaReservada = ObjectMother.GetSalaReservadaComId();
+        //    _repository
+        //        .Setup(f => f.Editar(It.IsAny<Alocacao>()));
+        //    _service.Editar(_salaReservada);
+        //    _repository.Verify(f => f.Editar(_salaReservada));
+        //}
+
         [Test]
-        public void Service_SalaReservada_Deveria_Editar_Locacao_Corretamente()
+        public void Service_SalaReservada_Deveria_Realocar_Locacao_Corretamente()
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _repository
-                .Setup(f => f.Editar(It.IsAny<Alocacao>()));
+                .Setup(f => f.Realocar(It.IsAny<Alocacao>()));
             _service.Editar(_salaReservada);
             _repository.Verify(f => f.Editar(_salaReservada));
         }

@@ -16,5 +16,13 @@ namespace ControleDeSalas.Application.Feature.Alocacoes
         {
             _repository = repository;
         }
+
+        public Alocacao Realocar(Alocacao entidade)
+        {
+            entidade.Validar();
+            _repository.Realocar(entidade);
+            return entidade;
+        }
+        
     }
 }

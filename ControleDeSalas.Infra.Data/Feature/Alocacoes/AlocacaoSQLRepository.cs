@@ -9,6 +9,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ControleDeSalas.Domain.Exceptions;
 
 namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
 {
@@ -85,10 +86,15 @@ namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
             return entidade;
         }
 
-        public void Editar(Alocacao entidade)
+        public void Realocar(Alocacao entidade)
         {
             entidade.Validar();
             Db.Update(_sqlAdd, Take(entidade));
+            
+        }
+        public void Editar(Alocacao entidade)
+        {
+            throw new UnsupportedOperationException();
         }
 
         public void Excluir(int Id)
@@ -108,6 +114,8 @@ namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
             Alocacao sala = Db.Get(_sqlGetById, Make, parms);
             return sala;
         }
+
+        
 
         private Alocacao Make(IDataReader reader)
         {

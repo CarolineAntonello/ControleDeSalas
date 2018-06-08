@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="170" visitedSequencePoints="170" numBranchPoints="60" visitedBranchPoints="60" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="0" maxCrapScore="6" minCrapScore="0" visitedClasses="12" numClasses="12" visitedMethods="40" numMethods="40" />
+  <Modules>
+    <Module hash="73-1A-8D-85-25-A6-5C-1B-C7-61-B4-98-17-87-3C-D7-EE-9C-10-65">
+      <Summary numSequencePoints="38" visitedSequencePoints="38" numBranchPoints="10" visitedBranchPoints="10" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="4" numClasses="4" visitedMethods="10" numMethods="10" />
+      <ModulePath>C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Application.Test\bin\Debug\ControleDeSalas.Application.dll</ModulePath>
+      <ModuleTime>2018-06-08T02:03:53.8172896Z</ModuleTime>
+      <ModuleName>ControleDeSalas.Application</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Application\Feature\Salas\SalaService.cs" />
+        <File uid="2" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Application\Feature\Alocacoes\AlocacaoService.cs" />
+        <File uid="3" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Application\Feature\Funcionarios\FuncionarioService.cs" />
+        <File uid="4" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Application\Abstract\Service.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ControleDeSalas.Application.Feature.Salas.SalaService</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void ControleDeSalas.Application.Feature.Salas.SalaService::.ctor(ControleDeSalas.Application.Feature.Salas.ISalaRepository)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="1" ordinal="0" offset="0" sl="15" sc="58" el="15" ec="74" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="15" uspid="2" ordinal="1" offset="8" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="15" uspid="3" ordinal="2" offset="9" sl="17" sc="13" el="17" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="15" uspid="4" ordinal="3" offset="16" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="1" ordinal="0" offset="0" sl="15" sc="58" el="15" ec="74" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>ControleDeSalas.Application.Feature.Alocacoes.AlocacaoService</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void ControleDeSalas.Application.Feature.Alocacoes.AlocacaoService::.ctor(ControleDeSalas.Application.Feature.Alocacoes.IAlocacaoRepository)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="18" uspid="5" ordinal="0" offset="0" sl="15" sc="66" el="15" ec="82" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="18" uspid="6" ordinal="1" offset="8" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="18" uspid="7" ordinal="2" offset="9" sl="17" sc="13" el="17" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="18" uspid="8" ordinal="3" offset="16" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="18" uspid="5" ordinal="0" offset="0" sl="15" sc="66" el="15" ec="82" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Alocacoes.Alocacao ControleDeSalas.Application.Feature.Alocacoes.AlocacaoService::Realocar(ControleDeSalas.Domain.Feature.Alocacoes.Alocacao)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="9" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="10" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="32" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="11" ordinal="2" offset="8" sl="23" sc="13" el="23" ec="44" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="12" ordinal="3" offset="21" sl="24" sc="13" el="24" ec="29" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="13" ordinal="4" offset="25" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="9" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ControleDeSalas.Application.Feature.Funcionarios.FuncionarioService</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void ControleDeSalas.Application.Feature.Funcionarios.FuncionarioService::.ctor(ControleDeSalas.Application.Feature.Funcionarios.IFuncionarioRepository)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="14" ordinal="0" offset="0" sl="15" sc="72" el="15" ec="88" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="15" uspid="15" ordinal="1" offset="8" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="15" uspid="16" ordinal="2" offset="9" sl="17" sc="13" el="17" ec="38" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="15" uspid="17" ordinal="3" offset="16" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="14" ordinal="0" offset="0" sl="15" sc="72" el="15" ec="88" bec="0" bev="0" fileid="3" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="21" visitedSequencePoints="21" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>ControleDeSalas.Application.Abstract.Service`1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void ControleDeSalas.Application.Abstract.Service`1::.ctor(ControleDeSalas.Domain.Abstract.IRepository`1&lt;T&gt;)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="48" uspid="18" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="50" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="48" uspid="19" ordinal="1" offset="7" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="48" uspid="20" ordinal="2" offset="8" sl="16" sc="13" el="16" ec="38" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="48" uspid="21" ordinal="3" offset="15" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="48" uspid="18" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="50" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void ControleDeSalas.Application.Abstract.Service`1::Adicionar(T)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="13" uspid="22" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="13" uspid="23" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="32" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="24" ordinal="2" offset="13" sl="22" sc="13" el="22" ec="45" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="25" ordinal="3" offset="26" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="13" uspid="22" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void ControleDeSalas.Application.Abstract.Service`1::Editar(T)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="13" uspid="26" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="13" uspid="27" ordinal="1" offset="1" sl="27" sc="13" el="27" ec="32" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="28" ordinal="2" offset="13" sl="28" sc="13" el="28" ec="42" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="5" uspid="29" ordinal="3" offset="26" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="13" uspid="26" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void ControleDeSalas.Application.Abstract.Service`1::Excluir(T)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="30" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="31" ordinal="1" offset="1" sl="33" sc="13" el="33" ec="46" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="32" ordinal="2" offset="24" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="30" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;T&gt; ControleDeSalas.Application.Abstract.Service`1::PegarTodos()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="33" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="34" ordinal="1" offset="1" sl="38" sc="13" el="38" ec="41" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="35" ordinal="2" offset="15" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="33" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>T ControleDeSalas.Application.Abstract.Service`1::Get(System.Int32)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="18" uspid="36" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="37" ordinal="1" offset="1" sl="43" sc="13" el="43" ec="44" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="38" ordinal="2" offset="16" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="18" uspid="36" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="75-B2-8A-49-BA-5A-3E-22-FC-82-16-1F-37-EB-5D-B4-D2-D9-70-C6">
+      <Summary numSequencePoints="26" visitedSequencePoints="26" numBranchPoints="23" visitedBranchPoints="23" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="3" numClasses="3" visitedMethods="3" numMethods="3" />
+      <ModulePath>C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Application.Test\bin\Debug\ControleDeSalas.Domain.dll</ModulePath>
+      <ModuleTime>2018-06-08T01:53:10.5728056Z</ModuleTime>
+      <ModuleName>ControleDeSalas.Domain</ModuleName>
+      <Files>
+        <File uid="9" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Domain\Feature\Salas\Sala.cs" />
+        <File uid="10" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Domain\Feature\Alocacoes\Alocacao.cs" />
+        <File uid="11" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Domain\Feature\Funcionarios\Funcionario.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="3" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ControleDeSalas.Domain.Feature.Salas.Sala</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.String ControleDeSalas.Domain.Feature.Salas.Sala::get_Nome()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Salas.Sala::set_Nome(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 ControleDeSalas.Domain.Feature.Salas.Sala::get_QuantidadeLugares()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Salas.Sala::set_QuantidadeLugares(System.Int32)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" crapScore="3" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3" minCrapScore="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Salas.Sala::Validar()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="19" uspid="39" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="19" uspid="40" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="33" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="7" uspid="41" ordinal="2" offset="19" sl="19" sc="17" el="19" ec="55" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="12" uspid="42" ordinal="3" offset="25" sl="21" sc="13" el="21" ec="40" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="43" ordinal="4" offset="41" sl="22" sc="17" el="22" ec="52" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="11" uspid="44" ordinal="5" offset="47" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="7" uspid="45" ordinal="0" offset="17" sl="18" path="0" offsetend="19" fileid="9" />
+                <BranchPoint vc="12" uspid="46" ordinal="1" offset="17" sl="18" path="1" offsetend="25" fileid="9" />
+                <BranchPoint vc="1" uspid="47" ordinal="2" offset="39" sl="21" path="0" offsetend="41" fileid="9" />
+                <BranchPoint vc="11" uspid="48" ordinal="3" offset="39" sl="21" path="1" offsetend="47" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="19" uspid="39" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Salas.Sala::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="49" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="11" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ControleDeSalas.Domain.Feature.Alocacoes.Alocacao</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663303</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Funcionarios.Funcionario ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::get_Funcionario()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::set_Funcionario(ControleDeSalas.Domain.Feature.Funcionarios.Funcionario)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663305</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Salas.Sala ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::get_Sala()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::set_Sala(ControleDeSalas.Domain.Feature.Salas.Sala)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.DateTime ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::get_DataReserva()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::set_DataReserva(System.DateTime)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.DateTime ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::get_HoraReservaInicio()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::set_HoraReservaInicio(System.DateTime)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.DateTime ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::get_HoraReservaFim()</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::set_HoraReservaFim(System.DateTime)</Name>
+              <FileRef uid="10" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="6" nPathComplexity="32" sequenceCoverage="100" branchCoverage="100" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="11" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::Validar()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="25" uspid="50" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="25" uspid="51" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="37" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="52" ordinal="2" offset="22" sl="20" sc="17" el="20" ec="58" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="24" uspid="53" ordinal="3" offset="28" sl="22" sc="13" el="22" ec="29" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="54" ordinal="4" offset="49" sl="23" sc="17" el="23" ec="58" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="23" uspid="55" ordinal="5" offset="55" sl="25" sc="13" el="25" ec="43" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="6" uspid="56" ordinal="6" offset="75" sl="26" sc="17" el="26" ec="54" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="17" uspid="57" ordinal="7" offset="81" sl="28" sc="13" el="28" ec="49" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="2" uspid="58" ordinal="8" offset="101" sl="29" sc="17" el="29" ec="54" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="15" uspid="59" ordinal="9" offset="107" sl="31" sc="13" el="31" ec="51" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="3" uspid="60" ordinal="10" offset="130" sl="32" sc="17" el="32" ec="54" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="12" uspid="61" ordinal="11" offset="136" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="62" ordinal="0" offset="20" sl="19" path="0" offsetend="22" fileid="10" />
+                <BranchPoint vc="24" uspid="63" ordinal="1" offset="20" sl="19" path="1" offsetend="28" fileid="10" />
+                <BranchPoint vc="1" uspid="64" ordinal="2" offset="47" sl="22" path="0" offsetend="49" fileid="10" />
+                <BranchPoint vc="23" uspid="65" ordinal="3" offset="47" sl="22" path="1" offsetend="55" fileid="10" />
+                <BranchPoint vc="6" uspid="66" ordinal="4" offset="73" sl="25" path="0" offsetend="75" fileid="10" />
+                <BranchPoint vc="17" uspid="67" ordinal="5" offset="73" sl="25" path="1" offsetend="81" fileid="10" />
+                <BranchPoint vc="2" uspid="68" ordinal="6" offset="99" sl="28" path="0" offsetend="101" fileid="10" />
+                <BranchPoint vc="15" uspid="69" ordinal="7" offset="99" sl="28" path="1" offsetend="107" fileid="10" />
+                <BranchPoint vc="3" uspid="70" ordinal="8" offset="128" sl="31" path="0" offsetend="130" fileid="10" />
+                <BranchPoint vc="12" uspid="71" ordinal="9" offset="128" sl="31" path="1" offsetend="136" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="25" uspid="50" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Alocacoes.Alocacao::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="72" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" maxCrapScore="4" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ControleDeSalas.Domain.Feature.Funcionarios.Funcionario</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.String ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::get_Nome()</Name>
+              <FileRef uid="11" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::set_Nome(System.String)</Name>
+              <FileRef uid="11" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.String ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::get_Cargo()</Name>
+              <FileRef uid="11" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::set_Cargo(System.String)</Name>
+              <FileRef uid="11" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Int32 ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::get_Ramal()</Name>
+              <FileRef uid="11" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::set_Ramal(System.Int32)</Name>
+              <FileRef uid="11" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="8" sequenceCoverage="100" branchCoverage="100" crapScore="4" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4" minCrapScore="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::Validar()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="20" uspid="73" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="20" uspid="74" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="33" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="7" uspid="75" ordinal="2" offset="19" sl="20" sc="17" el="20" ec="55" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="13" uspid="76" ordinal="3" offset="25" sl="22" sc="13" el="22" ec="33" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="77" ordinal="4" offset="43" sl="23" sc="17" el="23" ec="55" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="12" uspid="78" ordinal="5" offset="49" sl="25" sc="13" el="25" ec="26" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="79" ordinal="6" offset="62" sl="26" sc="17" el="26" ec="52" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="11" uspid="80" ordinal="7" offset="68" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="7" uspid="81" ordinal="0" offset="17" sl="19" path="0" offsetend="19" fileid="11" />
+                <BranchPoint vc="13" uspid="82" ordinal="1" offset="17" sl="19" path="1" offsetend="25" fileid="11" />
+                <BranchPoint vc="1" uspid="83" ordinal="2" offset="41" sl="22" path="0" offsetend="43" fileid="11" />
+                <BranchPoint vc="12" uspid="84" ordinal="3" offset="41" sl="22" path="1" offsetend="49" fileid="11" />
+                <BranchPoint vc="1" uspid="85" ordinal="4" offset="60" sl="25" path="0" offsetend="62" fileid="11" />
+                <BranchPoint vc="11" uspid="86" ordinal="5" offset="60" sl="25" path="1" offsetend="68" fileid="11" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="20" uspid="73" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Feature.Funcionarios.Funcionario::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="87" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>ControleDeSalas.Domain.Abstract.Entidade</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void ControleDeSalas.Domain.Abstract.Entidade::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="88" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="04-15-31-F9-2D-5A-A3-3F-7C-3B-E3-C0-20-D1-C1-09-75-3F-40-BE">
+      <Summary numSequencePoints="106" visitedSequencePoints="106" numBranchPoints="27" visitedBranchPoints="27" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="5" numClasses="5" visitedMethods="27" numMethods="27" />
+      <ModulePath>C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Infra.Data.Test\bin\Debug\ControleDeSalas.Infra.Data.dll</ModulePath>
+      <ModuleTime>2018-06-08T02:03:54.1663839Z</ModuleTime>
+      <ModuleName>ControleDeSalas.Infra.Data</ModuleName>
+      <Files>
+        <File uid="45" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Infra.Data\Feature\Salas\SalaSQLRepository.cs" />
+        <File uid="47" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Infra.Data\Feature\Alocacoes\AlocacaoSQLRepository.cs" />
+        <File uid="48" fullPath="C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Infra.Data\Feature\Funcionarios\FuncionarioSQLRepository.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="30" visitedSequencePoints="30" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="8" />
+          <FullName>ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Salas.Sala ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::Adicionar(ControleDeSalas.Domain.Feature.Salas.Sala)</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="139" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="5" uspid="140" ordinal="1" offset="1" sl="44" sc="13" el="44" ec="32" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="4" uspid="141" ordinal="2" offset="8" sl="45" sc="13" el="45" ec="62" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="4" uspid="142" ordinal="3" offset="33" sl="46" sc="13" el="46" ec="29" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="4" uspid="143" ordinal="4" offset="37" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="139" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::Editar(ControleDeSalas.Domain.Feature.Salas.Sala)</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="144" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="3" uspid="145" ordinal="1" offset="1" sl="51" sc="13" el="51" ec="32" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="2" uspid="146" ordinal="2" offset="8" sl="52" sc="13" el="52" ec="51" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="2" uspid="147" ordinal="3" offset="27" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="144" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::Excluir(System.Int32)</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="148" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="2" uspid="149" ordinal="1" offset="1" sl="57" sc="13" el="57" ec="96" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="2" uspid="150" ordinal="2" offset="25" sl="58" sc="13" el="58" ec="42" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="2" uspid="151" ordinal="3" offset="38" sl="59" sc="9" el="59" ec="10" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="148" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ControleDeSalas.Domain.Feature.Salas.Sala&gt; ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::GetAll()</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="152" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="2" uspid="153" ordinal="1" offset="1" sl="63" sc="13" el="63" ec="48" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="2" uspid="154" ordinal="2" offset="21" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="152" ordinal="0" offset="0" sl="62" sc="9" el="62" ec="10" bec="0" bev="0" fileid="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Salas.Sala ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::GetById(System.Int32)</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="155" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="8" uspid="156" ordinal="1" offset="1" sl="68" sc="13" el="68" ec="96" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="8" uspid="157" ordinal="2" offset="25" sl="69" sc="13" el="69" ec="58" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="8" uspid="158" ordinal="3" offset="43" sl="70" sc="13" el="70" ec="25" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="8" uspid="159" ordinal="4" offset="47" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="155" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Collections.Generic.Dictionary`2&lt;System.String,System.Object&gt; ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::Take(ControleDeSalas.Domain.Feature.Salas.Sala)</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="160" ordinal="0" offset="0" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="6" uspid="161" ordinal="1" offset="1" sl="84" sc="13" el="89" ec="15" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="6" uspid="162" ordinal="2" offset="73" sl="90" sc="9" el="90" ec="10" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="160" ordinal="0" offset="0" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::.ctor()</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="163" ordinal="0" offset="0" sl="15" sc="9" el="21" ec="58" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="15" uspid="164" ordinal="1" offset="11" sl="23" sc="9" el="28" ec="53" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="15" uspid="165" ordinal="2" offset="22" sl="30" sc="9" el="31" ec="53" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="15" uspid="166" ordinal="3" offset="33" sl="33" sc="9" el="33" ec="77" bec="0" bev="0" fileid="45" />
+                <SequencePoint vc="15" uspid="167" ordinal="4" offset="44" sl="35" sc="9" el="40" ec="45" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="163" ordinal="0" offset="0" sl="15" sc="9" el="21" ec="58" bec="0" bev="0" fileid="45" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository::.cctor()</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="168" ordinal="0" offset="0" sl="73" sc="9" el="79" ec="14" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="168" ordinal="0" offset="0" sl="73" sc="9" el="79" ec="14" bec="0" bev="0" fileid="45" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="169" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="170" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Salas.Sala ControleDeSalas.Infra.Data.Feature.Salas.SalaSQLRepository/&lt;&gt;c::&lt;.cctor&gt;b__13_0(System.Data.IDataReader)</Name>
+              <FileRef uid="45" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="171" ordinal="0" offset="0" sl="74" sc="12" el="79" ec="13" bec="0" bev="0" fileid="45" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="171" ordinal="0" offset="0" sl="74" sc="12" el="79" ec="13" bec="0" bev="0" fileid="45" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="44" visitedSequencePoints="44" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="9" numMethods="9" />
+          <FullName>ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Alocacoes.Alocacao ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::Adicionar(ControleDeSalas.Domain.Feature.Alocacoes.Alocacao)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="172" ordinal="0" offset="0" sl="83" sc="9" el="83" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="5" uspid="173" ordinal="1" offset="1" sl="84" sc="13" el="84" ec="32" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="4" uspid="174" ordinal="2" offset="8" sl="85" sc="13" el="85" ec="62" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="4" uspid="175" ordinal="3" offset="33" sl="86" sc="13" el="86" ec="29" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="4" uspid="176" ordinal="4" offset="37" sl="87" sc="9" el="87" ec="10" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="172" ordinal="0" offset="0" sl="83" sc="9" el="83" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::Realocar(ControleDeSalas.Domain.Feature.Alocacoes.Alocacao)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="177" ordinal="0" offset="0" sl="90" sc="9" el="90" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="3" uspid="178" ordinal="1" offset="1" sl="91" sc="13" el="91" ec="32" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="179" ordinal="2" offset="8" sl="92" sc="13" el="92" ec="48" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="180" ordinal="3" offset="27" sl="94" sc="9" el="94" ec="10" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="177" ordinal="0" offset="0" sl="90" sc="9" el="90" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::Editar(ControleDeSalas.Domain.Feature.Alocacoes.Alocacao)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="181" ordinal="0" offset="0" sl="96" sc="9" el="96" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="182" ordinal="1" offset="1" sl="97" sc="13" el="97" ec="55" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="181" ordinal="0" offset="0" sl="96" sc="9" el="96" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::Excluir(System.Int32)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="183" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="184" ordinal="1" offset="1" sl="102" sc="13" el="102" ec="96" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="185" ordinal="2" offset="25" sl="103" sc="13" el="103" ec="42" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="186" ordinal="3" offset="38" sl="104" sc="9" el="104" ec="10" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="183" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ControleDeSalas.Domain.Feature.Alocacoes.Alocacao&gt; ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::GetAll()</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="187" ordinal="0" offset="0" sl="107" sc="9" el="107" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="188" ordinal="1" offset="1" sl="108" sc="13" el="108" ec="48" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="2" uspid="189" ordinal="2" offset="28" sl="109" sc="9" el="109" ec="10" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="187" ordinal="0" offset="0" sl="107" sc="9" el="107" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Alocacoes.Alocacao ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::GetById(System.Int32)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="190" ordinal="0" offset="0" sl="112" sc="9" el="112" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="8" uspid="191" ordinal="1" offset="1" sl="113" sc="13" el="113" ec="96" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="8" uspid="192" ordinal="2" offset="25" sl="114" sc="13" el="114" ec="62" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="8" uspid="193" ordinal="3" offset="50" sl="115" sc="13" el="115" ec="25" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="8" uspid="194" ordinal="4" offset="54" sl="116" sc="9" el="116" ec="10" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="190" ordinal="0" offset="0" sl="112" sc="9" el="112" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Alocacoes.Alocacao ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::Make(System.Data.IDataReader)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="195" ordinal="0" offset="0" sl="121" sc="9" el="121" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="196" ordinal="1" offset="1" sl="122" sc="13" el="122" ec="44" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="197" ordinal="2" offset="7" sl="123" sc="13" el="123" ec="50" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="198" ordinal="3" offset="19" sl="124" sc="13" el="124" ec="36" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="199" ordinal="4" offset="31" sl="126" sc="13" el="126" ec="53" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="200" ordinal="5" offset="53" sl="127" sc="13" el="127" ec="74" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="201" ordinal="6" offset="76" sl="128" sc="13" el="128" ec="86" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="202" ordinal="7" offset="99" sl="129" sc="13" el="129" ec="80" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="203" ordinal="8" offset="122" sl="130" sc="13" el="130" ec="77" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="204" ordinal="9" offset="149" sl="131" sc="13" el="131" ec="63" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="205" ordinal="10" offset="176" sl="132" sc="13" el="132" ec="25" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="9" uspid="206" ordinal="11" offset="180" sl="133" sc="9" el="133" ec="10" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="195" ordinal="0" offset="0" sl="121" sc="9" el="121" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Collections.Generic.Dictionary`2&lt;System.String,System.Object&gt; ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::Take(ControleDeSalas.Domain.Feature.Alocacoes.Alocacao)</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="207" ordinal="0" offset="0" sl="136" sc="9" el="136" ec="10" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="6" uspid="208" ordinal="1" offset="1" sl="137" sc="13" el="145" ec="15" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="6" uspid="209" ordinal="2" offset="157" sl="146" sc="9" el="146" ec="10" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="207" ordinal="0" offset="0" sl="136" sc="9" el="136" ec="10" bec="0" bev="0" fileid="47" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Alocacoes.AlocacaoSQLRepository::.ctor()</Name>
+              <FileRef uid="47" />
+              <SequencePoints>
+                <SequencePoint vc="17" uspid="210" ordinal="0" offset="0" sl="18" sc="9" el="29" ec="60" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="17" uspid="211" ordinal="1" offset="11" sl="31" sc="9" el="38" ec="65" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="17" uspid="212" ordinal="2" offset="22" sl="40" sc="9" el="47" ec="73" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="17" uspid="213" ordinal="3" offset="33" sl="49" sc="9" el="49" ec="78" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="17" uspid="214" ordinal="4" offset="44" sl="51" sc="9" el="65" ec="63" bec="0" bev="0" fileid="47" />
+                <SequencePoint vc="17" uspid="215" ordinal="5" offset="55" sl="67" sc="9" el="80" ec="103" bec="0" bev="0" fileid="47" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="17" uspid="210" ordinal="0" offset="0" sl="18" sc="9" el="29" ec="60" bec="0" bev="0" fileid="47" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="30" visitedSequencePoints="30" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="8" />
+          <FullName>ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Funcionarios.Funcionario ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::Adicionar(ControleDeSalas.Domain.Feature.Funcionarios.Funcionario)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="216" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="5" uspid="217" ordinal="1" offset="1" sl="51" sc="13" el="51" ec="32" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="4" uspid="218" ordinal="2" offset="8" sl="52" sc="13" el="52" ec="62" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="4" uspid="219" ordinal="3" offset="33" sl="53" sc="13" el="53" ec="29" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="4" uspid="220" ordinal="4" offset="37" sl="54" sc="9" el="54" ec="10" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="216" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::Editar(ControleDeSalas.Domain.Feature.Funcionarios.Funcionario)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="221" ordinal="0" offset="0" sl="57" sc="9" el="57" ec="10" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="3" uspid="222" ordinal="1" offset="1" sl="58" sc="13" el="58" ec="32" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="2" uspid="223" ordinal="2" offset="8" sl="59" sc="13" el="59" ec="51" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="2" uspid="224" ordinal="3" offset="27" sl="60" sc="9" el="60" ec="10" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="221" ordinal="0" offset="0" sl="57" sc="9" el="57" ec="10" bec="0" bev="0" fileid="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::Excluir(System.Int32)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="225" ordinal="0" offset="0" sl="63" sc="9" el="63" ec="10" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="2" uspid="226" ordinal="1" offset="1" sl="64" sc="13" el="64" ec="96" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="2" uspid="227" ordinal="2" offset="25" sl="65" sc="13" el="65" ec="42" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="2" uspid="228" ordinal="3" offset="38" sl="66" sc="9" el="66" ec="10" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="225" ordinal="0" offset="0" sl="63" sc="9" el="63" ec="10" bec="0" bev="0" fileid="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ControleDeSalas.Domain.Feature.Funcionarios.Funcionario&gt; ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::GetAll()</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="229" ordinal="0" offset="0" sl="69" sc="9" el="69" ec="10" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="2" uspid="230" ordinal="1" offset="1" sl="70" sc="13" el="70" ec="48" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="2" uspid="231" ordinal="2" offset="21" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="229" ordinal="0" offset="0" sl="69" sc="9" el="69" ec="10" bec="0" bev="0" fileid="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Funcionarios.Funcionario ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::GetById(System.Int32)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="232" ordinal="0" offset="0" sl="74" sc="9" el="74" ec="10" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="8" uspid="233" ordinal="1" offset="1" sl="75" sc="13" el="75" ec="96" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="8" uspid="234" ordinal="2" offset="25" sl="76" sc="13" el="76" ec="72" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="8" uspid="235" ordinal="3" offset="43" sl="77" sc="13" el="77" ec="32" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="8" uspid="236" ordinal="4" offset="47" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="232" ordinal="0" offset="0" sl="74" sc="9" el="74" ec="10" bec="0" bev="0" fileid="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Collections.Generic.Dictionary`2&lt;System.String,System.Object&gt; ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::Take(ControleDeSalas.Domain.Feature.Funcionarios.Funcionario)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="237" ordinal="0" offset="0" sl="90" sc="9" el="90" ec="10" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="6" uspid="238" ordinal="1" offset="1" sl="92" sc="13" el="98" ec="15" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="6" uspid="239" ordinal="2" offset="91" sl="99" sc="9" el="99" ec="10" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="237" ordinal="0" offset="0" sl="90" sc="9" el="90" ec="10" bec="0" bev="0" fileid="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::.ctor()</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="15" uspid="240" ordinal="0" offset="0" sl="17" sc="9" el="25" ec="46" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="15" uspid="241" ordinal="1" offset="11" sl="27" sc="9" el="33" ec="53" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="15" uspid="242" ordinal="2" offset="22" sl="35" sc="9" el="36" ec="53" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="15" uspid="243" ordinal="3" offset="33" sl="38" sc="9" el="38" ec="84" bec="0" bev="0" fileid="48" />
+                <SequencePoint vc="15" uspid="244" ordinal="4" offset="44" sl="40" sc="9" el="46" ec="52" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="15" uspid="240" ordinal="0" offset="0" sl="17" sc="9" el="25" ec="46" bec="0" bev="0" fileid="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository::.cctor()</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="245" ordinal="0" offset="0" sl="80" sc="9" el="87" ec="14" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="245" ordinal="0" offset="0" sl="80" sc="9" el="87" ec="14" bec="0" bev="0" fileid="48" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="246" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="247" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>ControleDeSalas.Domain.Feature.Funcionarios.Funcionario ControleDeSalas.Infra.Data.Feature.Funcionarios.FuncionarioSQLRepository/&lt;&gt;c::&lt;.cctor&gt;b__13_0(System.Data.IDataReader)</Name>
+              <FileRef uid="48" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="248" ordinal="0" offset="0" sl="81" sc="12" el="87" ec="13" bec="0" bev="0" fileid="48" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="248" ordinal="0" offset="0" sl="81" sc="12" el="87" ec="13" bec="0" bev="0" fileid="48" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="28-11-3A-9E-C1-21-33-7C-60-76-E2-9C-87-4F-40-ED-3A-CA-D3-2C">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>C:\Users\Caroline Antonello\Desktop\Academia Programador\Projetos\Reforço\ControleDeSalas\ControleDeSalas.Infra.Data.Test\bin\Debug\ControleDeSalas.Infra.dll</ModulePath>
+      <ModuleTime>2018-06-07T22:21:11.6789095Z</ModuleTime>
+      <ModuleName>ControleDeSalas.Infra</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

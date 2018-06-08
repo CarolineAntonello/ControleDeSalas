@@ -47,6 +47,7 @@
     <Compile Include="Exceptions\InvalidCaractersException.cs" />
     <Compile Include="Exceptions\InvalidDateTimeException.cs" />
     <Compile Include="Exceptions\InvalidNumberException.cs" />
+    <Compile Include="Exceptions\UnsupportedOperationException.cs" />
     <Compile Include="Feature\Funcionarios\Funcionario.cs" />
     <Compile Include="Feature\Alocacoes\Alocacao.cs" />
     <Compile Include="Feature\Salas\Sala.cs" />

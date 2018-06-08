@@ -10,5 +10,6 @@ namespace ControleDeSalas.Application.Feature.Alocacoes
 {
     public interface IAlocacaoRepository : IRepository<Alocacao>
     {
+        void Realocar(Alocacao entidade);
     }
 }

@@ -44,20 +44,29 @@ namespace ControleDeSalas.Infra.Data.Test.Feature.Alocacoes
         }
 
         [Test]
-        public void Repository_Alocacao_Deveria_Editar_Corretamente()
+        public void Repository_Alocacao_Deveria_Realocar_Corretamente()
         {
             _salaReservada = ObjectMother.GetSalaReservadaComId();
             _salaReservada.Funcionario.Id = 1;
-            _repository.Editar(_salaReservada);
+            _repository.Realocar(_salaReservada);
             Alocacao sala = _repository.GetById(_salaReservada.Id);
             sala.Id.Should().Be(_salaReservada.Id);
+        }
+
+        [Test]
+        public void Repository_Alocacao_Deveria_Editar_Gerar_Excecao()
+        {
+            _salaReservada = ObjectMother.GetSalaReservadaComId();
+            _salaReservada.Funcionario.Id = 1;
+            Action action = ()=> _repository.Editar(_salaReservada);
+            action.Should().Throw<UnsupportedOperationException>();
         }
 
         [Test]
         public void Repository_Alocacao_Nao_Deveria_Editar_Com_Data_Menor_Que_Atual()
         {
             _salaReservada = ObjectMother.GetSalaReservadaDataMenorQueAtual();
-            Action action = () => _repository.Editar(_salaReservada);
+            Action action = () => _repository.Realocar(_salaReservada);
             action.Should().Throw<InvalidDateTimeException>();
         }
 
