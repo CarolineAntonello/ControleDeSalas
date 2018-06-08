@@ -22,7 +22,7 @@ namespace ControleDeSalas.Common.Test.Base
 
         private const string INSERT_SALA = @"INSERT INTO TBSala(Nome, QuantidadeLugares) VALUES ('Sala de Reunião', 35)";
 
-        private const string INSERT_SALARESERVADA = @"INSERT INTO TBAlocacao(DataReserva, HoraReservaInicio, HoraReservaFim, Funcionario_Id, Sala_Id) VALUES (GETDATE(), GETDATE(), GETDATE(), 1, 1)";
+        private const string INSERT_ALOCACAO = @"INSERT INTO TBAlocacao(DataReserva, HoraReservaInicio, HoraReservaFim, Funcionario_Id, Sala_Id) VALUES (GETDATE(), GETDATE(), GETDATE(), 1, 1)";
 
 
         public static void SeedDatabase()
@@ -33,7 +33,7 @@ namespace ControleDeSalas.Common.Test.Base
 
             Db.Update(INSERT_FUNCIONARIO);
             Db.Update(INSERT_SALA);
-            Db.Update(INSERT_SALARESERVADA);
+            Db.Update(INSERT_ALOCACAO);
         }
     }
 }

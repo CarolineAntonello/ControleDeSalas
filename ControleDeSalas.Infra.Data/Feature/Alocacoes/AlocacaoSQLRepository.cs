@@ -45,12 +45,14 @@ namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
                                                         Sala_Id = @Sala_Id
                                                         WHERE Id = @Id";
 
-        private string _sqlDelete = @"DELETE FROM TBAlocacao  WHERE Id = @Id";
+        private string _sqlDelete = @"DELETE FROM TBAlocacao WHERE Id = @Id";
 
         private string _sqlGetById = @"SELECT a.Id,
                                             a.DataReserva,
                                             a.HoraReservaInicio,
                                             a.HoraReservaFim,
+                                            a.Funcionario_Id,
+                                            a.Sala_Id,
                                             s.Nome,
                                             s.QuantidadeLugares,
                                             f.Nome,
@@ -65,6 +67,8 @@ namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
                                             a.DataReserva,
                                             a.HoraReservaInicio,
                                             a.HoraReservaFim,
+                                            a.Funcionario_Id,
+                                            a.Sala_Id,
                                             s.Nome,
                                             s.QuantidadeLugares,
                                             f.Nome,
@@ -122,7 +126,6 @@ namespace ControleDeSalas.Infra.Data.Feature.Alocacoes
 
         private Dictionary<string, object> Take(Alocacao sala)
         {
-
             return new Dictionary<string, object>
             {
                 { "Id", sala.Id },

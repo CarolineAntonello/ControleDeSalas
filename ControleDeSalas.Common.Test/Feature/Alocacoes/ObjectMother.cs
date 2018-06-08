@@ -87,8 +87,8 @@ namespace ControleDeSalas.Common.Test.Feature.Alocacoes
             return new Alocacao()
             {
                 DataReserva = DateTime.Now.AddDays(10),
-                HoraReservaInicio = DateTime.Now.AddDays(-10).AddHours(15),
-                HoraReservaFim = DateTime.Now.AddDays(10).AddHours(5),
+                HoraReservaInicio = DateTime.Now.AddHours(10),
+                HoraReservaFim = DateTime.Now.AddHours(5),
                 Funcionario = ControleDeSalas.Common.Test.Feature.Funcionarios.ObjectMother.GetFuncionarioComId(),
                 Sala = ControleDeSalas.Common.Test.Feature.Salas.ObjectMother.GetSalaComId(),
             };

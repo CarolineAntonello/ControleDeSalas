@@ -13,6 +13,7 @@ namespace ControleDeSalas.Infra.Data.Feature.Funcionarios
 {
     public class FuncionarioSQLRepository : IFuncionarioRepository
     {
+        #region Querys
         private string _sqlAdd = @"INSERT INTO 
                                     TBFuncionario
                                     (Nome,
@@ -43,6 +44,7 @@ namespace ControleDeSalas.Infra.Data.Feature.Funcionarios
                                     Ramal
                                     FROM
                                     TBFuncionario";
+        #endregion
 
         public Funcionario Adicionar(Funcionario entidade)
         {

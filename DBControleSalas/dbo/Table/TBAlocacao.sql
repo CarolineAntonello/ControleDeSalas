@@ -6,6 +6,6 @@
 	[HoraReservaFim] DATETIME NOT NULL,
     [Funcionario_Id] INT NOT NULL, 
     [Sala_Id] INT NOT NULL, 
-    CONSTRAINT [FK_TBSalaReservada_TBFuncionario] FOREIGN KEY (Funcionario_Id) REFERENCES TBFuncionario(Id) ON DELETE CASCADE, 
-    CONSTRAINT [FK_TBSalaReservada_TBSala] FOREIGN KEY (Sala_Id) REFERENCES TBSala(Id) ON DELETE CASCADE 
-)
+    CONSTRAINT [FK_TBAlocacao_TBFuncionario] FOREIGN KEY (Funcionario_Id) REFERENCES TBFuncionario(Id) ON DELETE CASCADE, 
+    CONSTRAINT [FK_TBAlocacao_TBSerie] FOREIGN KEY (Sala_Id) REFERENCES TBSala(Id) ON DELETE CASCADE
+	)
